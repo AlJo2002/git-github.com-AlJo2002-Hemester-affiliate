@@ -1,0 +1,57 @@
+body > #bg {
+
+height: 150%;
+width: 100%;
+background-image: linear-gradient(to right, #06f9c4, #00becd, #0080c0, #004394, #02024e);
+clip-path: circle(42.9% at 50% 0);
+position:absolute;
+z-index: -1;
+}
+(@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Nunito&family=Source+Sans+Pro&display=swap'););
+* {
+
+font-family:'Source Sans Pro', sans-serif;
+letter-spacing: 2px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center ;
+  text-align: center;
+  min-height: 100vn;
+
+}
+
+.buttonNav{
+ width: 125px;
+ height: 50px;
+ border-top: 0px;
+ border-bottom: solid 2px;
+ border-left: solid 2px;
+ border-right: solid 2px;
+ color: white;
+ background-color: rgba(0, 0, 0, 0.144) ;
+ border-radius: 0px;
+ box-shadow: inset 0 0 0 0 black;
+ transition: ease-out 0.5s;
+ font-size: 20px;
+ outline: none;
+}
+
+.buttonNav:hover {
+  box-shadow: inset 125px 0 0 0 #02024e}
+ 
+
+}
+
+
+
+
+
+body{
+  background-image: url();
+  background-color:white ;
+  background-blend-mode: darken;
+}
