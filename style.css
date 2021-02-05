@@ -2,7 +2,7 @@ body > #bg {
 
 height: 150%;
 width: 100%;
-background-image: linear-gradient(to top, #fdb546, #cbc148, #99c762, #66c884, #30c5a7, #3ac3a3, #43c2a0, #4ac09c, #7dbe77, #adb75b, #d9aa53, #fe9a66);
+background-image: linear-gradient(to right top, #0da3e5, #6e9de8, #a195e0, #c58dcf, #dd89b8, #ee8baa, #fa9099, #ff9889, #ffa67b, #ffb76e, #ffcb63, #fbe05f);
 padding-top: -3px;
 clip-path: circle(42.9% at 50% 0);
 position:absolute;
@@ -35,20 +35,19 @@ letter-spacing: 2px;
  color: white;
  background-color: rgba(0, 0, 0, 0.144) ;
  border-radius: 0px;
- box-shadow: inset 0 0 0 0 #02024e;
+ box-shadow: inset 0 0 0 0 black;
  transition: ease-out 0.5s;
  font-size: 20px;
  outline: none;
 }
 
 .buttonNav:hover {
-  box-shadow: inset 125px 0 0 0 #02024e}
+  box-shadow: inset 125px 0 0 0 black}
  
 
 body{
-  background-image: url(https://images.pexels.com/photos/6152246/pexels-photo-6152246.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
- background-repeat: no-repeat;
-  background-size:cover;
+  
+ background-color: black;
 
 }
 
