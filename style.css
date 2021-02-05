@@ -3,6 +3,7 @@ body > #bg {
 height: 150%;
 width: 100%;
 background-image: linear-gradient(to top, #fdb546, #cbc148, #99c762, #66c884, #30c5a7, #3ac3a3, #43c2a0, #4ac09c, #7dbe77, #adb75b, #d9aa53, #fe9a66);
+padding-top: -3px;
 clip-path: circle(42.9% at 50% 0);
 position:absolute;
 z-index: -1;
@@ -47,7 +48,7 @@ letter-spacing: 2px;
 body{
   background-image: url(https://images.pexels.com/photos/386009/pexels-photo-386009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
  background-repeat: no-repeat;
-  background-size: cover;
+  background-size:auto;
 
 }
 
