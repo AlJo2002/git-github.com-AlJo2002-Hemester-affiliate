@@ -2,7 +2,7 @@ body > #bg {
 
 height: 150%;
 width: 100%;
-background-image: linear-gradient(to right top, #0da3e5, #6e9de8, #a195e0, #c58dcf, #dd89b8, #ee8baa, #fa9099, #ff9889, #ffa67b, #ffb76e, #ffcb63, #fbe05f);
+background-image: linear-gradient(to left, #020b4a, #003a7d, #006bab, #009ed2, #04d3f2);
 padding-top: -3px;
 clip-path: circle(42.9% at 50% 0);
 position:absolute;
@@ -17,7 +17,7 @@ letter-spacing: 2px;
 
 .container{
   display: flex;
-  flex-direction: row;
+  flex-direction:column;
   justify-content:center;
   align-items: center ;
   text-align: center;
@@ -33,17 +33,32 @@ letter-spacing: 2px;
  border-left: solid 2px;
  border-right: solid 2px;
  color: white;
- background-color: rgba(0, 0, 0, 0.144) ;
+ background-color: rgba(185, 182, 182, 0.144) ;
  border-radius: 0px;
  box-shadow: inset 0 0 0 0 black;
  transition: ease-out 0.5s;
  font-size: 20px;
  outline: none;
+ border-radius: 4rem;
 }
 
 .buttonNav:hover {
   box-shadow: inset 125px 0 0 0 black}
+
+.glassPosition{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
  
+.glass{
+  background: white ;
+  min-height: 25vh;
+  width: 30%;
+  background: linear-gradient( to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3)
+  );
+border-radius: 10rem;
+}
 
 body{
   
