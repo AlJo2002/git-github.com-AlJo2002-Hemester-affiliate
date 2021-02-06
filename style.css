@@ -4,9 +4,12 @@ height: 150%;
 width: 100%;
 background-image: linear-gradient(to left, #020b4a, #003a7d, #006bab, #009ed2, #04d3f2);
 padding-top: -3px;
-clip-path: circle(42.9% at 50% 0);
+clip-path: inset(0 0 72% 0);
 position:absolute;
 z-index: -1;
+top: 0;
+left: 0;
+border-bottom: solid black 2px;
 }
 (@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Nunito&family=Source+Sans+Pro&display=swap'););
 * {
@@ -17,18 +20,19 @@ letter-spacing: 2px;
 
 .container{
   display: flex;
-  flex-direction:column;
+  flex-direction:row;
   justify-content:center;
   align-items: center ;
   text-align: center;
   min-height: 100vn;
+  
 
 }
 
 .buttonNav{
- width: 125px;
- height: 50px;
- border-top: 0px;
+ width: 100px;
+ height: 40px;
+ border-top: 2px;
  border-bottom: solid 2px;
  border-left: solid 2px;
  border-right: solid 2px;
@@ -37,32 +41,47 @@ letter-spacing: 2px;
  border-radius: 0px;
  box-shadow: inset 0 0 0 0 black;
  transition: ease-out 0.5s;
- font-size: 20px;
+ font-size: 15px;
  outline: none;
- border-radius: 4rem;
+
 }
 
 .buttonNav:hover {
-  box-shadow: inset 125px 0 0 0 black}
+  box-shadow: inset 100px 0 0 0 black}
 
-.glassPosition{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+
+.navText{
+  text-align: center;
 }
+.siteName{
+  font-size: xx-large;
+  font-weight: bold;
+  font-style: normal;
+}
+.navDescription {
+  font-style: italic;
+  font-size: x-large;
+}
+
+.swingImage{
+  background-image: url(https://images.pexels.com/photos/1122868/pexels-photo-1122868.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
  
-.glass{
-  background: white ;
-  min-height: 25vh;
-  width: 30%;
-  background: linear-gradient( to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3)
-  );
-border-radius: 10rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contentHome{
+  text-align: center;
+
 }
 
 body{
   
- background-color: black;
+
+
+ 
+ margin-left: 10%;
+ margin-right: 10%;
 
 }
 
