@@ -1,15 +1,15 @@
 body > #bg {
 
-height: 150%;
-width: 100%;
-background-image: linear-gradient(to left, #020b4a, #003a7d, #006bab, #009ed2, #04d3f2);
+height: 50%;
+width: 50%;
+background-image: url();
 
 clip-path: inset(0 0 72% 0);
 position:absolute;
 z-index: -1;
 top: 0;
-left: 0;
-border-bottom: solid black 2px;
+
+
 }
 (@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Nunito&family=Source+Sans+Pro&display=swap'););
 * {
@@ -20,29 +20,29 @@ letter-spacing: 2px;
 
 .container{
   display: flex;
-  flex-direction:row;
-  justify-content:center;
+  flex-direction:column;
+  justify-content:start;
   align-items: center ;
   text-align: center;
-  min-height: 100vn;
+  min-height: fit-content;
   
 
 }
 
 .buttonNav{
  width: 100px;
- height: 40px;
- border-top: solid 2px;
- border-bottom: solid 2px;
- border-left: solid 2px;
- border-right: solid 2px;
+ height: 25px;
+ 
+ 
+ 
+border: white;
  color: white;
- background-color: rgba(185, 182, 182, 0.164) ;
- border-radius: 0px;
+ background-color: rgba(185, 182, 182, 0.2);
+ 
  box-shadow: inset 0 0 0 0 black;
  transition: ease-out 0.3s;
  font-size: 15px;
- outline: none;
+ outline:none ;
 
 }
 
@@ -71,15 +71,77 @@ letter-spacing: 2px;
   text-align: center;
   color: white;
   backdrop-filter: blur(3px);
+  background-color: black;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+padding-bottom: 3%;
+}
+.renovationHome{
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-top: 3%;
+padding-bottom: 3%;
+text-align: center;
 
 }
+#renovationImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+border-radius: 10px;
+}
+  
+
+.spaHome{background-color: black;
+  border-radius: 10px;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-top: 3%;
+padding-bottom: 3%;
+text-align: center;}
+
+#spaImg{  height: 100%;
+  width: 100%;
+  object-fit: cover;
+border-radius: 10px;}
+
+.adrenalineHome{background-color: black;
+  border-radius: 10px;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-top: 3%;
+padding-bottom: 3%;
+text-align: center;}
+
+#adrenalineImg{ height: 100%;
+  width: 100%;
+  object-fit: cover;
+border-radius: 10px;}
+
+
 
 body{
-  background-image: url(https://images.pexels.com/photos/3776850/pexels-photo-3776850.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+background-image: linear-gradient(to left, #020b4a, #003a7d, #006bab, #009ed2, #04d3f2);
 background-size:cover;
-overflow: hidden;
+backdrop-filter: blur(3px);
 
-margin: 5%;
+
+
 }
 
 header{
@@ -87,11 +149,14 @@ header{
 }
 
 footer{
+  position:;
+  
+  
+  width: 100%;
+  background-color: white;
+  color: black;
   text-align: center;
- background-color: white;
- padding: 5%;
- margin-left: 0;
- margin-right: 0%;
+
 }
 
 
