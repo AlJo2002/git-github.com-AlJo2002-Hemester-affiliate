@@ -26,6 +26,8 @@ letter-spacing: 2px;
   text-align: center;
   min-height: fit-content;
   
+  
+  
 
 }
 
@@ -58,14 +60,18 @@ border-right: solid;
   color: white;
 }
 .siteName{
+  color: black;
   font-size: xx-large;
   font-weight: bold;
   font-style: normal;
 }
 .navDescription {
+  color: black;
   font-style: italic;
   font-size: x-large;
 }
+
+
 
 
 .contentHome
@@ -79,11 +85,14 @@ border-right: solid;
   border-top:solid;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 10%;
   padding-top: 3%;
   padding-left: 3%;
   padding-right: 3%;
 padding-bottom: 3%;
 }
+
+
 .renovationHome
 {
   background-color: rgba(185, 182, 182, 0.4);
@@ -197,9 +206,13 @@ background-size:cover;
 backdrop-filter: blur(3px);
 }
 
-header{
-
+header{background-image: url(https://freepngimg.com/thumb/cloud/1-white-clouds-png-image.png);
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed
+  
 }
+
 
 footer{
   position:;
