@@ -1,10 +1,10 @@
 body > #bg {
 
-height: 50%;
-width: 50%;
-background-image: url();
+height:%;
+width: 100%;
+background-image: linear-gradient(to right top, #020e1f, #021831, #002045, #002759, #052e6d);
+backdrop-filter:(3px);
 
-clip-path: inset(0 0 72% 0);
 position:absolute;
 z-index: -1;
 top: 0;
@@ -20,8 +20,8 @@ letter-spacing: 2px;
 
 .container{
   display: flex;
-  flex-direction:column;
-  justify-content:start;
+  flex-direction:row;
+  justify-content:center;
   align-items: center ;
   text-align: center;
   min-height: fit-content;
@@ -38,8 +38,9 @@ letter-spacing: 2px;
  
  
 border: white;
-border-left: solid;
-border-right: solid;
+
+border-bottom: solid;
+margin-top: 5%;
  color: white;
  background-color: rgba(185, 182, 182, 0.2);
  
@@ -58,17 +59,27 @@ border-right: solid;
 .navText{
   text-align: center;
   color: white;
+  background-color:#1290b1;
+  border-radius: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 9%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+
 }
 .siteName{
-  color: black;
+  
   font-size: xx-large;
   font-weight: bold;
   font-style: normal;
 }
 .navDescription {
-  color: black;
+
   font-style: italic;
   font-size: x-large;
+  width: 100%;
+  
 }
 
 
@@ -79,12 +90,17 @@ border-right: solid;
   text-align: center;
   color: white;
   backdrop-filter: blur(3px);
-  background-color: rgba(185, 182, 182, 0.4);
-  border-radius: 10px;
+   
+  background-color:black;
+  border-color: black;
+  border-left: solid  ;
+  border-top: solid;
+  border-right: solid;
   border-bottom: solid;
-  border-top:solid;
-  margin-left: 5%;
-  margin-right: 5%;
+  
+  
+  margin-left:10%;
+  margin-right:10%;
   margin-bottom: 10%;
   padding-top: 3%;
   padding-left: 3%;
@@ -95,7 +111,7 @@ padding-bottom: 3%;
 
 .renovationHome
 {
-  background-color: rgba(185, 182, 182, 0.4);
+  background-color: rgba(185, 182, 182, 0.2);
   border-radius: 10px;
   border-bottom: solid;
   border-top:solid;
@@ -120,7 +136,7 @@ border-radius: 10px;
 
 .spaHome
 {
-  background-color:rgba(185, 182, 182, 0.4) ;
+  background-color:rgba(185, 182, 182, 0.2) ;
   border-radius: 10px;
   border-bottom: solid;
   border-top:solid;
@@ -141,7 +157,7 @@ border-radius: 10px;}
 
 .adrenalineHome
 {
-  background-color: rgba(185, 182, 182, 0.4);
+  background-color: rgba(185, 182, 182, 0.2);
   border-radius: 10px;
   border-bottom: solid;
   border-top:solid;
@@ -162,7 +178,7 @@ border-radius: 10px;}
 
 .bikeHome
 {
-  background-color: rgba(185, 182, 182, 0.4);
+  background-color: rgba(185, 182, 182, 0.2);
   border-radius: 10px;
   border-bottom: solid;
   border-top:solid;
@@ -181,7 +197,7 @@ text-align: center;}
 border-radius: 10px;}
 
 .drinksHome
-{background-color: rgba(185, 182, 182, 0.4);
+{background-color: rgba(185, 182, 182, 0.2);
   border-radius: 10px;
   border-bottom: solid;
   border-top:solid;
@@ -201,24 +217,23 @@ text-align: center;}
 border-radius: 10px;}
 
 body{
-background-image: linear-gradient(to left, #020b4a, #003a7d, #006bab, #009ed2, #04d3f2);
-background-size:cover;
+  background-image: linear-gradient(to right top, #020e1f, #13354e, #186080, #1290b1, #0cc3de);  
 backdrop-filter: blur(3px);
 }
 
-header{background-image: url(https://freepngimg.com/thumb/cloud/1-white-clouds-png-image.png);
+header{
   height: 100%;
   width: 100%;
-  background-attachment: fixed
+ 
+  
   
 }
 
+}
 
 footer{
-  position:;
-  
-  
   width: 100%;
+  height: 100%;
   background-color: white;
   color: black;
   text-align: center;
