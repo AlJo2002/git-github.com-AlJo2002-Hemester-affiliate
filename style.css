@@ -12,10 +12,6 @@ padding-top: 2%;
 }
 
 
-.customCards{
-
-margin-left: 12%;
-}
 
 .textBg{
   width: 100%;
@@ -27,20 +23,41 @@ background-size: cover;
 background-position: center;
 }
 
-.textBgText{background-color: rgba(22, 21, 21, 0.5);
+ .textBgText{background-color: rgba(22, 21, 21, 0.5);
   color: white;
   font-size: x-large;
   padding-top: 6%;
-  padding-bottom: 6%;
+  padding-bottom: 9%;
 }
 
 
 
-.buttonNav:hover {
-  box-shadow: inset 100px 0 0 0 black;
-color: white; } 
 
 
+.lemonBg{
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 24%, 0 61%);
+  background: url("https://images.pexels.com/photos/266346/pexels-photo-266346.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  color: white;
+  width: 100%;
+  height: 60vh;
+  
+
+ }
+
+
+
+
+ .textLemon{color: white;
+  font-size: x-large;
+  background: rgba(0, 0, 0, 0.2); 
+  padding-bottom:100vh ;
+  padding-top:10vh; 
+  text-align: center;
+ 
+
+
+}
 
 .navText{
   text-align: center;
@@ -57,9 +74,11 @@ color: white; }
 }
 .siteName{
   
-  font-size: xx-large;
+  font-size:xx-large;
   font-weight: bold;
-  font-style: normal;
+  font-style:normal;
+  text-align: center;
+  color: white;
 }
 .navDescription {
 
@@ -69,80 +88,47 @@ color: white; }
 }
 
 
-
-
-
-/* 
- .toyCarText{ position:absolute;
-  bottom: 87%;
-  margin-left: 25%; 
-
-  text-align: center;
-  background-color:rgba(56, 47, 47, 0.5);
-  color: white;
-  border-radius: 10px;
-  padding-left: 2%;
-padding-right: 2%; */
- */
+.spaBg{
+  background: url(https://images.pexels.com/photos/3673941/pexels-photo-3673941.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+  width: 100%;
+  height: 50vh ;
  
- {}  
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
 
-
-
-  
-  
-
-
-
-  
-
-
-
-
-/* .bikeHome
-{
-  background-color: rgba(185, 182, 182, 0.2);
-  border-radius: 10px;
-  border: dotted;
-  border-top:solid;
-  border-bottom: solid;
+.spaBgText{background-color: rgba(22, 21, 21, 0.5);
   color: white;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-right: 3%;
-  padding-left: 3%;
-  padding-top: 3%;
-padding-bottom: 3%;
-text-align: center;}
+  font-size: x-large;
+  padding-top: 6%;
+  padding-bottom: 4%;}
 
-#bikeImg{height: 100%;
-  width: 100%;
-  object-fit: cover;
-border-radius: 10px;}
+  .adrenalineBg{ background: url(https://images.pexels.com/photos/2408150/pexels-photo-2408150.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    width: 100%;
+    height: 50vh ;
+   
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-position: center;}
 
-.drinksHome
-{background-color: rgba(185, 182, 182, 0.2);
-  border-radius: 10px;
-  border-bottom: solid;
-  border-top:solid;
-  color: white;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-right: 3%;
-  padding-left: 3%;
-  padding-top: 3%;
-padding-bottom: 3%;
-text-align: center;}
+  .adrenalineBgText{background-color: rgba(22, 21, 21, 0.5);
+    color: white;
+    font-size: x-large;
+    padding-top: 6%;
+    padding-bottom: 4%;}
 
-#drinksImg
-{height: 100%;
-  width: 100%;
-  object-fit: cover;
-border-radius: 10px;} */
+ 
+ 
+ 
 
 body{
-  background-image: linear-gradient(to right top, #020e1f, #13354e, #186080, #1290b1, #0cc3de);  
+  background-image: linear-gradient(to right top, #020e1f, #13354e, #186080, #1290b1, #0cc3de);
+  background-repeat:repeat;  
 backdrop-filter: blur(3px);
+
 }
 
 
@@ -154,17 +140,22 @@ header{
 
 
 footer{
-  width: 100%;
-  height: 100%;
+  max-width:100% ;
   background-color: white;
-  color: black;
+  color: #1290b1;
+  position: fixed;
   text-align: center;
-
+  overflow: hidden;
+  align-self: center;
 }
 
 .inspoHeadline{
   color: white;
   text-align: center;
+  background:black ;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 5%;
 }
 
 
@@ -173,12 +164,11 @@ footer{
      display: block;
      margin-left: auto;
      margin-right: auto;
-     width: 100%;
+     width: 70%;
      height: 100%;
      object-fit: cover;
      border: solid white;
-     border-left: none;
-     border-right: none;
+     
      margin-top: 5%;
 }
 
@@ -196,4 +186,4 @@ footer{
 }
 
 
-
+html{width: 100%;}
