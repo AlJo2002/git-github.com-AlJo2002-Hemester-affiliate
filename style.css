@@ -242,6 +242,13 @@ footer{
   margin-left: 10%;
   margin-right: 10%;
 }
+.ImageSlide{
+   height:auto;
+  width:auto; 
+  margin-left: 10%;
+  margin-right: 10%;
+  object-position: center;
+}
 
 html{width: 100%;
 scroll-behavior:smooth;}
