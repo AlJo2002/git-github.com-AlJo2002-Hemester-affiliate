@@ -89,8 +89,25 @@ margin-bottom: 5%;
 
  .borderCards{
    border-top: solid white 3px;
+   border-bottom: solid white 5px;
   
  }
+
+ .floatText{
+ color:white ;
+ float: right;
+ margin-right: 12%;
+ margin-top: 3%;
+ text-decoration: underline;
+ 
+}
+
+.instaImg{
+  height: 10vh;
+  width: 10vh;
+  margin-left: 25%;
+}
+
 
 .lemonBg{
   background: url("https://images.pexels.com/photos/266346/pexels-photo-266346.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -102,10 +119,9 @@ margin-bottom: 5%;
 
 
  .textLemon{color: white;
-  font-size: x-large;
-  background: rgba(0, 0, 0, 0.2);
-  padding-bottom:12vh ;
-  padding-top:10vh; 
+  background: rgba(0, 0, 0, 0.3);
+  padding-bottom:6vh ;
+  padding-top:6vh; 
   text-align: center;
 
 }
@@ -123,14 +139,7 @@ margin-bottom: 5%;
   padding-top: 1%;
 
 }
-/* .siteName{
-  
-  font-size:xx-large;
-  font-weight: bold;
-  font-style:normal;
-  text-align: center;
-  color: white;
-} */
+
 .navDescription {
 
   font-style: italic;
@@ -254,12 +263,12 @@ footer{
 }
 .ImageSlide{
    height:auto;
-  width:auto; 
-  margin-left: 10%;
+  width:50%; 
   margin-right: 10%;
   object-position: center;
-margin-bottom: 3%;
-margin-top: 3%;
+
+
+
 }
 
 
