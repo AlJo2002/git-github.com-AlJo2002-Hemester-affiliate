@@ -7,7 +7,7 @@
   text-align: center;
   background-color:white;} */
 .logo{
- background-color:#d9534f ;
+ background-color:#292b2c ;
  padding-left: 2vh;
  padding-right: 2vh;
  padding-top: 2vh;
@@ -17,22 +17,24 @@
  border-bottom-right-radius: 10vh;
  border-bottom: solid #fcf1e7;
  border-right: solid #fcf1e7;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
   .scroll{
     overflow: scroll;
-    height: 20vh;
+     height: 20vh; 
   
     
   }
 
   .navbar
   {
-      border-bottom: 10% solid #0275d8 ;
+      border-bottom: 10px solid #0275d8 ;
   }
   .navbar-collapse {
     box-shadow:#0275d8;
-    border-color:#0275d8;
+    border-color: #0275d8;
+   
   }
 
 .whiteBg{
@@ -83,30 +85,41 @@ border-bottom: solid 5px #fcf1e7;
 
 }
 .bookNow{
-color: #fcf1e7;
- background-size: 120%;
+ color: #fcf1e7;
+ 
  text-align: center;
  font-size: xx-large;
  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-padding-bottom:5%
+padding-bottom:5%;
 }
 
 .bookNowSectionBg{
-   /* background-image: linear-gradient(to bottom ,black,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0)  ); */ 
-    margin-left: 10%;
+   margin-left: 10%;
   margin-right: 10%; 
-  border-radius: 5%;
-  padding-top:4%;
+  margin-top: -0.5%; 
+  margin-bottom: 4%;
+  border-bottom-left-radius: 2vh;
+  border-bottom-right-radius: 2vh;
+  padding-top:2%;
+  padding-bottom:2%;
+
+  border: 1%;
+  /* border-style:solid; */
 
 }
 .bookNowText{
-  margin-bottom: 5%;
-  margin-top: 2%;
+  margin-bottom:5%;
+  margin-top: 1%;
   font-size: 6vh;
-
 }
 
-
+.borderBookNow{
+  
+ border-bottom: solid;
+ padding-bottom: 5%;
+ 
+ margin-top: 3%;
+}
 
 
 
@@ -132,8 +145,9 @@ border-radius: 2vh;
 }
 
  .borderCards{
+   
+   border-bottom: solid white 3px;
    border-top: solid white 3px;
-   border-bottom: solid white 5px;
   
  }
 
@@ -257,11 +271,23 @@ backdrop-filter: blur(3px);
 header{
   height: 100%;
   width: 100%;
-  
-  
- 
-  
 }
+
+.socialMedia{
+  text-align: center;
+  color: white;
+margin-bottom: 3%;
+margin-top: 5%;
+
+}
+
+.socialMediaText{
+  color: white;
+
+
+
+}
+
 
 .footerText{ max-width:100%;
   background-color: whitesmoke;
