@@ -6,7 +6,18 @@
   justify-content:center; 
   text-align: center;
   background-color:white;} */
-
+.logo{
+ background-color:#d9534f ;
+ padding-left: 2vh;
+ padding-right: 2vh;
+ padding-top: 2vh;
+ padding-bottom: 2.5vh;
+ margin-top: -8%;
+ margin-left: -9%;
+ border-bottom-right-radius: 10vh;
+ border-bottom: solid #fcf1e7;
+ border-right: solid #fcf1e7;
+}
 
   .scroll{
     overflow: scroll;
@@ -17,7 +28,7 @@
 
   .navbar
   {
-      border-bottom: 10px solid #0275d8 ;
+      border-bottom: 10% solid #0275d8 ;
   }
   .navbar-collapse {
     box-shadow:#0275d8;
