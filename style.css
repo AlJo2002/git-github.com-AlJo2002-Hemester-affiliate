@@ -7,7 +7,7 @@
   text-align: center;
   background-color:white;} */
 .logo{
- background-color:#292b2c ;
+ background-color:#f0ad4e ;
  padding-left: 2vh;
  padding-right: 2vh;
  padding-top: 2vh;
@@ -118,7 +118,7 @@ padding-bottom:5%;
  border-bottom: solid;
  padding-bottom: 5%;
  
- margin-top: 3%;
+ margin-top: 4%;
 }
 
 
@@ -147,7 +147,7 @@ border-radius: 2vh;
  .borderCards{
    
    border-bottom: solid white 3px;
-   border-top: solid white 3px;
+ 
   
  }
 
@@ -283,6 +283,7 @@ margin-top: 5%;
 
 .socialMediaText{
   color: white;
+  margin-bottom: 7%;
 
 
 
