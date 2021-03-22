@@ -7,7 +7,7 @@
   text-align: center;
   background-color:white;} */
 .logo{
- background-color:#f0ad4e ;
+ background-color:#f0ad4e;
  padding-left: 2vh;
  padding-right: 2vh;
  padding-top: 2vh;
@@ -38,8 +38,8 @@
   }
 
 .whiteBg{
-    /* background-color: rgba(251,243,232,255);   */
-    background-color:#292b2c ;
+
+  background-color: #292b2c;
  border-bottom: 1px solid #fcf1e7;
   
   margin-bottom: 5%;
@@ -68,7 +68,6 @@ border-bottom: solid 5px #fcf1e7;
  .textBgText{
    background-image: linear-gradient(to bottom ,#0275d8,rgba(0, 0, 0, 0)  );
   color: #fcf1e7;
-  font-size:;
   padding-top: 6%;
   padding-bottom: 8%;
   margin-bottom: 2%;
@@ -108,7 +107,7 @@ padding-bottom:5%;
 
 }
 .bookNowText{
-  margin-bottom:5%;
+  margin-bottom: 1%;
   margin-top: 1%;
   font-size: 6vh;
 }
@@ -116,12 +115,14 @@ padding-bottom:5%;
 .borderBookNow{
   
  border-bottom: solid;
- padding-bottom: 5%;
+ padding-bottom: 4%;
  
  margin-top: 4%;
 }
 
-
+.bookNowBtnSpacing{
+  margin-top: -7%;
+}
 
 .indexContent{
 
