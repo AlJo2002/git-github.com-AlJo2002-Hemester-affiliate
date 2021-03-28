@@ -6,371 +6,356 @@
   justify-content:center; 
   text-align: center;
   background-color:white;} */
-.logo{
- background-color:#292b2c;
- padding-left: 8%;
- padding-right:3vh ;
- padding-top: 4%;
- padding-bottom: 1 ;
- margin-bottom: 4%;
- margin-top: -9%;
- margin-left: -9%;
-
- border-bottom-right-radius:36px;
- border-bottom: solid #fcf1e7;
- border-right: solid #fcf1e7;
- font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-   .scroll{
-    overflow: scroll;
-     height: 20vh; 
-  
-    
-  }
-
-  .navbar
-  {
-      border-bottom: 10px solid #0275d8 ;
-  }
-  .navbar-collapse {
-    box-shadow:#0275d8;
-    border-color: #0275d8;
+  .logo{
+    background-color:#292b2c;
+    padding-left: 8%;
+    padding-right:3vh ;
+    padding-top: 4%;
+    padding-bottom: 1% ;
+    margin-bottom: 4%;
+    margin-top: -9%;
+    margin-left: -9%;
    
-  }
-
-.whiteBg{
-
-  background-color: #292b2c;
- border-bottom: 1px solid #fcf1e7 ;
-  
-  margin-bottom: 5%;
-
-
-}
-
-.textBg{
-  width: 100%;
-height: 50vh ;
-background: url("https://images.pexels.com/photos/4553618/pexels-photo-4553618.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
-background-repeat: no-repeat;
-text-align: center;
-background-size:cover;
-background-position: center;
-font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-border-bottom-left-radius: 5vh;
-border-bottom-right-radius: 5vh;
-border-bottom: solid 5px #fcf1e7;
-
-
-
-
-}
-
- .textBgText{
-   background-image: linear-gradient(to bottom ,#0275d8,rgba(0, 0, 0, 0)  );
-  color: #fcf1e7;
-  padding-top: 6%;
-  padding-bottom: 8%;
-  margin-bottom: 2%;
-  margin-top: 0%;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-}
-
-  
-
-
-.indexButton{
-  margin-bottom: 100%;
-
-}
-.bookNow{
- color: #fcf1e7;
- 
- text-align: center;
- font-size: xx-large;
- font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-padding-bottom:5%;
-}
-
-.bookNowSectionBg{
-   margin-left: 10%;
-  margin-right: 10%; 
-  margin-top: -0.5%; 
-  margin-bottom: 4%;
-  border-bottom-left-radius: 2vh;
-  border-bottom-right-radius: 2vh;
-  padding-top:2%;
-  padding-bottom:2%;
-
-  border: 1%;
-  /* border-style:solid; */
-
-}
-.bookNowText{
-  margin-bottom: 1%;
-  margin-top: 1%;
-  font-size: 6vh;
-}
-
-.borderBookNow{
-  
- border-bottom: solid;
- padding-bottom: 4%;
- 
- margin-top: 4%;
-}
-
-.bookNowBtnSpacing{
-  margin-top: -7%;
-}
-
-.indexContent{
-
-  margin-left: 5%;
-  margin-right: 5%;
-}
- 
- 
- .cpCards{
-  background-image: linear-gradient(to bottom ,black,rgba(0, 0, 0, 0)  );
-padding-left: 10%;
-padding-right: 3%;
-padding-top: 3%;
-padding-bottom: 0%;
-margin-right: 10%;
-margin-left: 1%;
-margin-top: 5%;
-margin-bottom: 5%;
-border-radius: 2vh;
-
-}
-
- .borderCards{
+    border-bottom-right-radius:36px;
+    border-bottom: solid #fcf1e7;
+    border-right: solid #fcf1e7;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
    
-   border-bottom: solid white 3px;
- 
-  
- }
-
- .floatText{
- color:white ;
- float: right;
- margin-right: 12%;
- margin-top: 3%;
- text-decoration: underline;
- 
-}
-
-.instaImg{
-  height: 10vh;
-  width: 10vh;
-  margin-left: 25%;
-}
-
-
-.lemonBg{
- 
-  color: white;
-  width: 100%;
-  height: 100%;
- border-top: solid whitesmoke;
- background-size: 100%;
- }
-
-
- .textLemon{color:#1290b1 ;
-  background-color: whitesmoke;
-  padding-bottom: 4vh;
-  padding-top:4vh; 
-  text-align: center;
- 
-
-
-}
-
-.textLemonBg{
-  background: rgba(68, 68, 68, 0);
-  margin-left: 15%;
-  margin-right: 15%;
-  
-}
-
-.navText{
-  text-align: center;
-  color: whitesmoke;
- 
-
- 
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 1%;
-  padding-bottom: 1%;
-  padding-top: 1%;
-
-}
-
-.navDescription {
-
-  font-style: italic;
-  font-size: x-large;
-  width: 100%;
-}
-
-
-.spaBg{
-  background: url(https://images.pexels.com/photos/3673941/pexels-photo-3673941.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
-  width: 100%;
-  height: 50vh ;
- 
-  background-repeat: no-repeat;
-  text-align: center;
-  background-size: cover;
-  background-position: center;
-}
-
-.spaBgText{background-color: rgba(22, 21, 21, 0.5);
-  color: white;
-  font-size: x-large;
-  padding-top: 6%;
-  padding-bottom: 4%;}
-
-  .adrenalineBg{ background: url(https://images.pexels.com/photos/2408150/pexels-photo-2408150.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
-    width: 100%;
-    height: 50vh ;
-   
-    background-repeat: no-repeat;
-    text-align: center;
-    background-size: cover;
-    background-position: center;}
-
-  .adrenalineBgText{background-color: rgba(22, 21, 21, 0.5);
-    color: white;
-    font-size: x-large;
-    padding-top: 6%;
-    padding-bottom: 4%;}
-
-
-
-
- 
- .image-grid img {
-   margin-bottom: 1rem;}
- 
-
-body{
-   background-color:#0275d8 ; 
-  background-repeat:no-repeat;
-backdrop-filter: blur(3px);
-
-
-
-
-}
-
-
-header{
-  height: 100%;
-  width: 100%;
-}
-
-.socialMedia{
-  text-align: center;
-  color: white;
-margin-bottom: 3%;
-margin-top: 5%;
-
-}
-
-.socialMediaText{
-  color: white;
-  margin-bottom: 7%;
-
-
-
-}
-
-
-.footerText{ max-width:100%;
-  background-color: whitesmoke;
-  color: #1290b1;
-  position: fixed;
-  text-align: center;
-object-position: center;
-width: 100%;
-padding-top: 3%;
-padding-bottom: 3%;
-padding-left: 15%;
-padding-right: 15%;
-}
-
-.footerBorder{
-
- border-bottom: solid;
-  padding-bottom: 5%;
-  
-  margin-top: 3%;
-}
-.footerCr{
-  padding-bottom: ;
-}
-
-.logoNav{margin-top: -40%;
-margin-bottom: -40%;
-padding-top: 9%;
-margin-left: -10%;}
-
-.inspoHeadline{
-  color: white;
-  text-align: center;
-  background:black ;
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-bottom: 5%;
-}
-
-
-   .inspoImg{
-     object-fit: cover;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 70%;
-     height: 100%;
-     object-fit: cover;
-     border: solid white;
+      .scroll{
+       overflow: scroll;
+        height: 20vh; 
      
-     margin-top: 5%;
-}
-
-.inspoText{
-  text-align: center;
-  color: white;
-  background-color: #1290b1;
-  margin-left: 20%;
-  margin-right: 20%;
-  border-radius: 10px;
-  padding-bottom: 2%;
-  padding-top: 2%;
-  border: solid;
-  border-width: thin;
-}
-
-.aboutCard{
-  margin-left: 10%;
-  margin-right: 10%;
-}
-.ImageSlide{
-   height:auto;
-  width:50%; 
-  margin-right: 10%;
-  object-position: center;
-
-
-
-}
-
-
-html{width: 100%;
-scroll-behavior:smooth;}
+       
+     }
+   
+     .navbar
+     {
+         border-bottom: 10px solid #0275d8 ;
+     }
+ 
+   
+   .whiteBg{
+   
+     background-color: #292b2c;
+    border-bottom: 1px solid #fcf1e7 ;
+     
+     margin-bottom: 5%;
+   
+   
+   }
+   
+   .textBg{
+     width: 100%;
+   height: 50vh ;
+   background: url("https://images.pexels.com/photos/4553618/pexels-photo-4553618.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+   background-repeat: no-repeat;
+   text-align: center;
+   background-size:cover;
+   background-position: center;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+   border-bottom-left-radius: 5vh;
+   border-bottom-right-radius: 5vh;
+   border-bottom: solid 5px #fcf1e7;
+   
+   
+   
+   
+   }
+   
+    .textBgText{
+      background-image: linear-gradient(to bottom ,#0275d8,rgba(0, 0, 0, 0)  );
+     color: #fcf1e7;
+     padding-top: 6%;
+     padding-bottom: 8%;
+     margin-bottom: 2%;
+     margin-top: 0%;
+     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+   }
+   
+     
+   
+   
+   .indexButton{
+     margin-bottom: 100%;
+   
+   }
+   .bookNow{
+    color: #fcf1e7;
+    
+    text-align: center;
+    font-size: xx-large;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   padding-bottom:5%;
+   }
+   
+   .bookNowSectionBg{
+      margin-left: 10%;
+     margin-right: 10%; 
+     margin-top: -0.5%; 
+     margin-bottom: 4%;
+     border-bottom-left-radius: 2vh;
+     border-bottom-right-radius: 2vh;
+     padding-top:2%;
+     padding-bottom:2%;
+   
+   }
+   .bookNowText{
+     margin-bottom: 1%;
+     margin-top: 1%;
+     font-size: 6vh;
+   }
+   
+   .borderBookNow{
+     
+    border-bottom: solid;
+    padding-bottom: 4%;
+    
+    margin-top: 4%;
+   }
+   
+   .bookNowBtnSpacing{
+     margin-top: -7%;
+   }
+   
+   .indexContent{
+   
+     margin-left: 5%;
+     margin-right: 5%;
+   }
+    
+    
+    .cpCards{
+     background-image: linear-gradient(to bottom ,black,rgba(0, 0, 0, 0)  );
+   padding-left: 10%;
+   padding-right: 3%;
+   padding-top: 3%;
+   padding-bottom: 0%;
+   margin-right: 10%;
+   margin-left: 1%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   border-radius: 2vh;
+   
+   }
+   
+    .borderCards{
+      
+      border-bottom: solid white 3px;
+    
+     
+    }
+   
+    .floatText{
+    color:white ;
+    float: right;
+    margin-right: 12%;
+    margin-top: 3%;
+    text-decoration: underline;
+    
+   }
+   
+   .instaImg{
+     height: 10vh;
+     width: 10vh;
+     margin-left: 25%;
+   }
+   
+   
+   .lemonBg{
+    
+     color: white;
+     width: 100%;
+     height: 100%;
+    border-top: solid whitesmoke;
+    background-size: 100%;
+    }
+   
+   
+    .textLemon{color:#1290b1 ;
+     background-color: whitesmoke;
+     padding-bottom: 4vh;
+     padding-top:4vh; 
+     text-align: center;
+    
+   
+   
+   }
+   
+   .textLemonBg{
+     background: rgba(68, 68, 68, 0);
+     margin-left: 15%;
+     margin-right: 15%;
+     
+   }
+   
+   .navText{
+     text-align: center;
+     color: whitesmoke;
+    
+   
+    
+     margin-left: 10%;
+     margin-right: 10%;
+     margin-top: 1%;
+     padding-bottom: 1%;
+     padding-top: 1%;
+   
+   }
+   
+   .navDescription {
+   
+     font-style: italic;
+     font-size: x-large;
+     width: 100%;
+   }
+   
+   
+   .spaBg{
+     background: url(https://images.pexels.com/photos/3673941/pexels-photo-3673941.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+     width: 100%;
+     height: 50vh ;
+    
+     background-repeat: no-repeat;
+     text-align: center;
+     background-size: cover;
+     background-position: center;
+   }
+   
+   .spaBgText{background-color: rgba(22, 21, 21, 0.5);
+     color: white;
+     font-size: x-large;
+     padding-top: 6%;
+     padding-bottom: 4%;}
+   
+     .adrenalineBg{ background: url(https://images.pexels.com/photos/2408150/pexels-photo-2408150.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+       width: 100%;
+       height: 50vh ;
+      
+       background-repeat: no-repeat;
+       text-align: center;
+       background-size: cover;
+       background-position: center;}
+   
+     .adrenalineBgText{background-color: rgba(22, 21, 21, 0.5);
+       color: white;
+       font-size: x-large;
+       padding-top: 6%;
+       padding-bottom: 4%;}
+   
+   
+   
+   
+    
+    .image-grid img {
+      margin-bottom: 1rem;}
+    
+   
+   body{
+      background-color:#0275d8 ; 
+   }
+   
+   
+   header{
+     height: 100%;
+     width: 100%;
+   }
+   
+   .socialMedia{
+     text-align: center;
+     color: white;
+   margin-bottom: 3%;
+   margin-top: 5%;
+   
+   }
+   
+   .socialMediaText{
+     color: white;
+     margin-bottom: 7%;
+   
+   
+   
+   }
+   
+   
+   .footerText{ max-width:100%;
+     background-color: whitesmoke;
+     color: #1290b1;
+     text-align: center;
+   object-position: center;
+   width: 100%;
+   padding-top: 3%;
+   padding-bottom: 3%;
+   padding-left: 15%;
+   padding-right: 15%;
+   
+   }
+   
+   .footerBorder{
+   
+    border-bottom: solid;
+     padding-bottom: 5%;
+     
+     margin-top: 3%;
+   }
+  
+   
+   .logoNav{margin-top: -40%;
+   margin-bottom: -40%;
+   padding-top: 9%;
+   margin-left: -10%;}
+   
+   .inspoHeadline{
+     color: white;
+     text-align: center;
+     background:black ;
+     margin-left: 3%;
+     margin-right: 3%;
+     margin-bottom: 5%;
+   }
+   
+   
+      .inspoImg{
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        height: 100%;
+        object-fit: cover;
+        border: solid white;
+        
+        margin-top: 5%;
+   }
+   
+   .inspoText{
+     text-align: center;
+     color: white;
+     background-color: #1290b1;
+     margin-left: 20%;
+     margin-right: 20%;
+     border-radius: 10px;
+     padding-bottom: 2%;
+     padding-top: 2%;
+     border: solid;
+     border-width: thin;
+   }
+   
+   .aboutCard{
+     margin-left: 10%;
+     margin-right: 10%;
+   }
+   .ImageSlide{
+      height:auto;
+     width:50%; 
+     margin-right: 10%;
+     object-position: center;
+   
+   
+   
+   }
+   
+   
+   html{width: 100%;
+   scroll-behavior:smooth;}
