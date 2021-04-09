@@ -1,11 +1,4 @@
 
-/* 
- .containerNav{
-  
-  flex-direction:row;
-  justify-content:center; 
-  text-align: center;
-  background-color:white;} */
   .logo{
      background-color:#fff6f6;
     padding-left: 8%;
@@ -104,10 +97,9 @@
      margin-bottom: 1%;
      margin-top: 1%;
      font-size: 6vh;
-     
      padding-bottom: 3%;
-     margin-left: 16%;
-     margin-right: 16%;
+     margin-left: 5%;
+     margin-right: 5%;
      color:	#fff6f6 ;
     
    }
@@ -120,7 +112,7 @@
    .borderBookNow{
      
     border: solid;
-    
+  border-radius: 1.5vh;
     padding-bottom: 4%;
     padding-top: 2%;
     color: 	#fff6f6;
@@ -146,7 +138,7 @@
    padding-bottom: 0%;
    margin-right: 10%;
    margin-left: 1%;
-   margin-top: 0%;
+   margin-top: -1%;
    margin-bottom: 5%;
    border-radius: 2vh;
    
@@ -271,8 +263,8 @@
    .socialMedia{
      text-align: center;
      color: white;
-   margin-bottom: 5%;
-   margin-top: 5%;
+   margin-bottom: 15%;
+   margin-top: 15%;
    
    }
    
@@ -383,6 +375,7 @@ max-width: 100%;
    }
    .moreButton{
      text-align: center;
+     margin-top: -2%;
    }
    
    html{width: 100%;
